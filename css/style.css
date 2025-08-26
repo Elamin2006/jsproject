@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F8FAFC;
+}
+h4 {
+  color: #1E293B;
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+
+}
+p {
+  color: #475569;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+
+}
+span {
+  color: #64748B;
+    font-family: 'Roboto', 'Helvetica Neue', sans-serif;
+
+}
+.posicon{
+    background-color: #00C4CC;
+
+}  
+.ngicon{
+    background-color: #FF3B30;
+}
+.neuicon{
+    background-color: #6C757D;
+}
+.vh-75 {
+    height: 75vh !important;
+}
+.header{
+    background-color:#1E1E2E;
+     color: #FFD60A;
+}
+.icn{
+    color: #00C4CC
+}
+.anc {
+  color: #6C757D;
+  border: 2px solid #6C757D;
+  background-color: transparent;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.anc:hover {
+  background-color: #6C757D;
+  color: #fff;            
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 10px rgba(108, 117, 125, 0.3);
+}
+.ancd {
+  color: #FF595E;
+  border: 2px solid #FF595E;
+  background-color: transparent;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.ancd:hover {
+  background-color: #FF595E;
+  color: #fff;             
+  transform: translateY(-2px); 
+  box-shadow: 0 4px 10px rgba(108, 117, 125, 0.3);
+}
+.txt{
+     color: #FFD60A;
+
+}
+.txt1{
+     color: #6C757D;
+
+}
+.bton{
+    background-color: #00A6FB;
+     border: none;
+}
+.carb {
+    background-color: #FFFFFF;
+}
+.cartbc{
+    background-color: #F8FAFC;
+
+}
+.cart-div {
+    top: 55PX;
+    left: -80px;
+    width: 200px !important;
+    text-align: center;
+    z-index: 100;
+}
+.cart-icon{
+    cursor: pointer;
+}
+.plumindv{
+    width: 140px;
+    height: 70px;
+}
+.h-70{
+    height: 65%;
+}
+.hover-div:hover{
+
+    transform: translateY(-10px); 
+  box-shadow: 0 4px 10px rgba(108, 117, 125, 0.3);
+    border: 2px solid #00A6FB;
+}
+i {
+    cursor: pointer;
+}
+
+ .prod-price, .prod-name{
+    width: 65px;
+    
+}
+.pmdiv i {
+    display: inline-block;
+    width: 5px;
+    height: 10px;
+    border: 2px solid black;
+
+}
